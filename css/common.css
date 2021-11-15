@@ -37,9 +37,56 @@
     opacity: 0;
 }
 
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+.ex-6-img {
+    transform: 1s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: 3s;
+}
+.ex-7-img:hover {
+    filter: grayscale(60%) sepia(60%);
+}
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: grayscale(60%) sepia(60%);
+}
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    border-radius: 25px;
+    filter: grayscale(60%) sepia(60%);
+    transform: scale(1.5);
+}
 
 
 
+
+/* Pre-existing code */
 
 .margin-top-15 {
   margin-top: 15px;
